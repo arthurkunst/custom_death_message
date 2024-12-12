@@ -1,0 +1,17 @@
+msgid "Allow player to use set_death_message command"
+msgstr ""
+
+msgid "You died!"
+msgstr ""
+
+msgid "Set the death message shown when a player dies."
+msgstr ""
+
+msgid "<value>"
+msgstr ""
+
+msgid "Changed the death message to: "
+msgstr ""
+
+msgid "Respawn"
+msgstr ""

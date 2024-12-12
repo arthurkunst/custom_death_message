@@ -1,0 +1,17 @@
+msgid "Allow player to use set_death_message command"
+msgstr "Erlaubt dem Spieler das set_death_message Kommando auszuführen"
+
+msgid "You died!"
+msgstr "Du bist gestorben!"
+
+msgid "Set the death message shown when a player dies."
+msgstr "Setze die Todesnachricht, die angezeigt wird, wenn ein Spieler stirbt."
+
+msgid "<value>"
+msgstr "<Wert>"
+
+msgid "Changed the death message to: "
+msgstr "Die Todesnachricht wurde geändert: "
+
+msgid "Respawn"
+msgstr "Wiederbeleben"
