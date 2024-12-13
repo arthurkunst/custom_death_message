@@ -13,5 +13,11 @@ msgstr ""
 msgid "Changed the death message to: "
 msgstr ""
 
+msgid "Changed the death message to the default in the minetest.conf."
+msgstr ""
+
+msgid "Set the death message shown when a player dies to the value specified in the minetest.conf."
+msgstr ""
+
 msgid "Respawn"
 msgstr ""

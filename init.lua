@@ -60,3 +60,22 @@ minetest.register_chatcommand("set_death_message", {
         return true
     end,
 })
+
+-- Register new chatcommand to reset the message
+minetest.register_chatcommand("reset_death_message", {
+    description = S("Set the death message shown when a player dies to the value specified in the minetest.conf."),
+    params = "",
+    privs = {death_message=true},
+
+    func = function(name, param)
+
+        if param == "" then
+            storage:set_string("custom_death_message", "")
+
+            minetest.chat_send_player(name, S("Changed the death message to the default in the minetest.conf."))
+
+            return true
+        end
+        return false
+    end,
+})
